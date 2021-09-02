@@ -141,3 +141,12 @@ jobs:
           tags: |
             konstellation/kdl-py:${{ env.RELEASE_VERSION }}
             konstellation/kdl-py:latest
+
+      - name: Upload README to Docker Hub
+        if: env.RELEASE_VERSION != ''
+        uses: ms-jpq/sync-dockerhub-readme@v1
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+          repository: konstellation/kdl-py
+          readme: "./kdl-py/README.md"
