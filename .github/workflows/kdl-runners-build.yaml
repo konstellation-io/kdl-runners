@@ -62,7 +62,7 @@ jobs:
           install: true
       - name: Build
         run: |
-          docker build kdl-py/Dockerfile
+          docker build -f kdl-py/Dockerfile
 
       # - name: Login to DockerHub Registry
       #   uses: docker/login-action@v1
