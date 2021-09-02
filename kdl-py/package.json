@@ -1,5 +1,5 @@
 {
-  "name": "kdl-runner",
+  "name": "kdl-py",
   "version": "0.0.1",
   "dependencies": {
     "semantic-release": "17.4.7",
