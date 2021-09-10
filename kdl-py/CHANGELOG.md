@@ -1,3 +1,10 @@
+# [kdl-py-v1.0.1](https://github.com/konstellation-io/kdl-runners/compare/kdl-py-v1.0.0...kdl-py-v1.0.1) (2021-09-10)
+
+
+### Bug Fixes
+
+* **kdl-py:** revert to previous cuda/ubuntu version ([5bdc7a5](https://github.com/konstellation-io/kdl-runners/commit/5bdc7a5b0e3a2c139e946d6297379cca9a226712))
+
 # kdl-py-v1.0.0 (2021-09-02)
 
 
