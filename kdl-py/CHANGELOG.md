@@ -1,3 +1,10 @@
+# [kdl-py-v1.1.0](https://github.com/konstellation-io/kdl-runners/compare/kdl-py-v1.0.1...kdl-py-v1.1.0) (2021-09-13)
+
+
+### Features
+
+* **kdl-py:** use non root user as default user ([15cc366](https://github.com/konstellation-io/kdl-runners/commit/15cc36653a13063505ac5a9b38902bf7e5578d80))
+
 # [kdl-py-v1.0.1](https://github.com/konstellation-io/kdl-runners/compare/kdl-py-v1.0.0...kdl-py-v1.0.1) (2021-09-10)
 
 
