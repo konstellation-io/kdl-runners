@@ -106,11 +106,8 @@ RUN rm --recursive --force -- * && \
         apt-get clean && apt-get autoremove -y && \
         rm -rf /var/lib/{apt,dpkg,cache,log}/
 
-# Change workdir to / TEMPORARILY
-WORKDIR /
-
 # Use non-root user
-# USER ${NON_ROOT_USER}
+USER ${NON_ROOT_USER}
 
 # Set workdir to user home
-# WORKDIR /home/${NON_ROOT_USER}
+WORKDIR /home/${NON_ROOT_USER}
