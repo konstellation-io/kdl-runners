@@ -1,3 +1,10 @@
+# [kdl-py-v1.2.0](https://github.com/konstellation-io/kdl-runners/compare/kdl-py-v1.1.0...kdl-py-v1.2.0) (2021-10-20)
+
+
+### Features
+
+* **kdl-py:** Update pytorch and add a needed package ([b422575](https://github.com/konstellation-io/kdl-runners/commit/b422575c531e9dbc3c0cc3528bc579dc424f54a6))
+
 # [kdl-py-v1.1.0](https://github.com/konstellation-io/kdl-runners/compare/kdl-py-v1.0.1...kdl-py-v1.1.0) (2021-09-13)
 
 
