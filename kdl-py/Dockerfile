@@ -38,6 +38,7 @@ RUN apt-get update && apt-get install -yq --no-install-recommends \
             git \
             libaio1 \
             libffi-dev \
+            libgl1-mesa-glx \
             libgtk2.0-dev \
             libssl-dev \
             libllvm-10-ocaml-dev \
