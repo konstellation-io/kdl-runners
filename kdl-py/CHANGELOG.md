@@ -1,3 +1,10 @@
+# [kdl-py-v1.2.1](https://github.com/konstellation-io/kdl-runners/compare/kdl-py-v1.2.0...kdl-py-v1.2.1) (2021-11-11)
+
+
+### Bug Fixes
+
+* **kdl-py:** Use id=1000 for non-root user ([dbb30bf](https://github.com/konstellation-io/kdl-runners/commit/dbb30bf5a2dd195905e9107aee94412d8a6076d4))
+
 # [kdl-py-v1.2.0](https://github.com/konstellation-io/kdl-runners/compare/kdl-py-v1.1.0...kdl-py-v1.2.0) (2021-10-20)
 
 
