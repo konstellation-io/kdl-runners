@@ -13,6 +13,7 @@ ENV ORACLE_HOME /opt/oracle/instantclient_18_5
 ENV LD_RUN_PATH=$ORACLE_HOME
 
 ARG NON_ROOT_USER=nroot
+ARG ID=1000
 
 # Switch to ROOT user to do maintenance tasks
 USER root
@@ -98,8 +99,8 @@ RUN pip install --upgrade pip && \
         pip install --no-cache-dir -r requirements.txt --ignore-installed PyYAML
 
 # Create a non-root user
-RUN groupadd ${NON_ROOT_USER} --gid 1001                                  && \
-    useradd ${NON_ROOT_USER} --system --create-home --uid 1001 --gid 1001 && \
+RUN groupadd ${NON_ROOT_USER} --gid ${ID}                                  && \
+    useradd ${NON_ROOT_USER} --system --create-home --uid ${ID} --gid ${ID} && \
     chown ${NON_ROOT_USER}:${NON_ROOT_USER} /home/${NON_ROOT_USER}
 
 # Clean up
