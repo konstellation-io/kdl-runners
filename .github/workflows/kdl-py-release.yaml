@@ -14,7 +14,7 @@ jobs:
     steps:
 
       - name: Checkout code
-        uses: actions/checkout@v3.1.0
+        uses: actions/checkout@v3.5.1
         with:
           fetch-depth: 0
 
@@ -68,7 +68,7 @@ jobs:
           fi
       - name: Checkout code
         if: env.RELEASE_VERSION != ''
-        uses: actions/checkout@v3.1.0
+        uses: actions/checkout@v3.5.1
         with:
           fetch-depth: 0
 
